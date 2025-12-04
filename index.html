@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PAM Website - Under construction</title>
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220aa;
+      --accent:#8ef3a7;
+      --muted:#9aa7b2;
+      --glass: rgba(255,255,255,0.03);
+      --glow: 0 8px 30px rgba(142,243,167,0.12);
+      --mono: "Courier New", Courier, monospace;
+    }
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:
+        radial-gradient(1200px 600px at 10% 10%, rgba(142,243,167,0.06), transparent 10%),
+        radial-gradient(900px 400px at 90% 90%, rgba(138,206,255,0.04), transparent 15%),
+        var(--bg);
+      color:#e6eef6;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:2rem;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+    .card{
+      width:min(900px,96%);
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:18px;
+      padding:3.2rem;
+      box-shadow:var(--glow);
+      backdrop-filter: blur(6px) saturate(120%);
+      border:1px solid rgba(255,255,255,0.04);
+      text-align:center;
+    }
+    h1{
+      margin:0 0 .6rem 0;
+      font-size:2.2rem;
+      letter-spacing: -0.6px;
+    }
+    p.lead{
+      margin:0;
+      font-size:1.25rem;
+      color:var(--muted);
+      font-family:var(--mono);
+    }
+    .big-emoji{
+      font-size:3.6rem;
+      display:inline-block;
+      margin-bottom:.5rem;
+      transform: translateY(2px);
+    }
+    .small{
+      margin-top:1.2rem;
+      font-size:.9rem;
+      color:rgba(230,238,246,0.6);
+    }
+    .btn{
+      display:inline-block;
+      margin-top:1.2rem;
+      padding:.6rem 1.1rem;
+      border-radius:999px;
+      text-decoration:none;
+      font-weight:600;
+      border:1px solid rgba(255,255,255,0.06);
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      cursor:pointer;
+    }
+    @media (max-width:420px){
+      h1{font-size:1.6rem}
+      .big-emoji{font-size:2.6rem}
+      p.lead{font-size:1rem}
+    }
+  </style>
+</head>
+<body>
+  <main class="card" role="main" aria-labelledby="heading">
+    <div class="big-emoji" aria-hidden="true">🪩</div>
+    <h1 id="heading">Psychiatric association of Macedonia</h1>
+    <p class="lead">This website is under construction, please check again soon... .</p>
+
+    <div class="small">
+    </div>
+  </main>
+</body>
+</html>
+
+
